@@ -19,7 +19,7 @@ This project analyzes historical traffic data collected periodically from the Na
 The raw traffic snapshot data used for this analysis is collected periodically (e.g., every 30 minutes) from the Nantes Métropole open data source.
 
 **The raw data collection and initial storage process is managed in a separate repository/process, which can be found here:**
-➡️ **[Link to Data Source Repo/Process Description]** *(<- Replace this with the actual link or description)*
+➡️ **[[Link to Data Source Repo/Process Description](https://github.com/thelordofpigeons/nantes_traffic_archiver)]** 
 
 This analysis project assumes the raw CSV snapshots are available in a directory structure expected by `trafic_processing_master.py`. The master script then generates the necessary `cleaned_traffic_data.parquet` and `channel_coordinates.parquet` files used by the analysis scripts.
 
