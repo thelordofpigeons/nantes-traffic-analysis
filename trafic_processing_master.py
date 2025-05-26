@@ -17,13 +17,13 @@ start_time = time.time()
 # ============================
 # --- Define Paths (Modify these as needed) ---
 # Folder containing the raw CSV snapshots
-raw_folder_path = r"C:\Users\ASUS\Documents\Stage LS2N\nantes_traffic_archiver\dist\archive"
+raw_folder_path = r"C:\Users\thelo\Documents\LS2N\nantes_traffic_archiver\archive"
 
 # Output path for the master coordinate mapping file
-coordinate_mapping_path = r"C:\Users\ASUS\Documents\Stage LS2N\nantes_traffic_archiver\dist\channel_coordinates.parquet"
+coordinate_mapping_path = r"C:\Users\thelo\Documents\LS2N\nantes-traffic-analysis\results\master_coordinate_mapping.parquet"
 
 # Output path for the final cleaned traffic data
-cleaned_data_path = r"C:\Users\ASUS\Documents\Stage LS2N\nantes_traffic_archiver\dist\cleaned_traffic_data.parquet"
+cleaned_data_path = r"C:\Users\thelo\Documents\LS2N\nantes-traffic-analysis\results\cleaned_traffic_data.parquet"
 
 # --- Columns to keep for main processing ---
 # Explicitly list columns to keep, excluding geo ones
